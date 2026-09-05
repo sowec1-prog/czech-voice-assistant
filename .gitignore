@@ -1,0 +1,12 @@
+# ESP32 local settings and secrets
+firmware/config.h
+
+# Python runtime files
+local-czech-stt/.venv/
+local-czech-stt/__pycache__/
+local-czech-stt/server.log
+local-czech-stt/*.wav
+
+# Downloaded Piper models: restore with download_voice.py
+local-czech-stt/voices/*.onnx
+local-czech-stt/voices/*.onnx.json

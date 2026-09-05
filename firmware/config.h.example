@@ -1,0 +1,31 @@
+#pragma once
+
+// Vyplň podle vlastní domácí sítě.
+#define WIFI_SSID       "DOPLN_WIFI_SSID"
+#define WIFI_PASSWORD   "DOPLN_WIFI_HESLO"
+
+// IPv4 adresa počítače, na kterém běží local-czech-stt/server.py.
+#define LOCAL_STT_HOST "192.168.0.180"
+#define LOCAL_STT_PORT 8080
+
+// ESP32-C3 SuperMini: OLED SSH1106 přes I2C.
+#define OLED_SDA        8
+#define OLED_SCL        9
+#define OLED_ADDRESS   0x3C
+
+// INMP441 I2S mikrofon.
+#define I2S_MIC_SCK    10
+#define I2S_MIC_WS     20
+#define I2S_MIC_SD     21
+
+// Tlačítko mezi GPIO a GND.
+#define BUTTON_PIN      3
+
+// SPI microSD.
+#define SD_CS           7
+#define SD_SCK          4
+#define SD_MOSI         6
+#define SD_MISO         5
+
+constexpr uint32_t MAX_RECORD_MS = 7000UL;
+constexpr uint32_t WIFI_TIMEOUT_MS = 20000UL;
