@@ -14,7 +14,7 @@ Soukromý domácí hlasový systém bez cloudového rozpoznávání:
 
 ```text
 firmware/              ESP32-C3 Arduino firmware
-  spechtotext.ino
+  firmware.ino
   config.h.example     šablona Wi-Fi a IP adresy PC
   platformio.ini
 local-czech-stt/       lokální Python server pro Windows
